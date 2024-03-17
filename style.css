@@ -1,0 +1,52 @@
+body {
+  /*body proprties*/
+  background-color: orange;
+  color: white;
+}
+p {
+  color: blue;
+}
+#para {
+  width: 80px;
+  height: 120px;
+  display: none;
+  background-color: pink;
+}
+.accent,
+h6 {
+  background-color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section p {
+  font-style: italic;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  color: aquamarine;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  margin: 30px;
+  padding: 50px;
+}
+ul li {
+  display: inline;
+}
+input {
+  display: block;
+}
