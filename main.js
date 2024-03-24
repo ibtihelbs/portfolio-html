@@ -60,20 +60,8 @@ function findMinors(variable) {
   }
 }
 const age = prompt("enter age");
-if (age > 18) {
-  console.log("adult");
-} else if (age == 18) {
-  console.log("barely an adult");
-} else {
-  console.log("minor");
-}
+findMinors(age);
 const ages = [5, 18, 20, 90, 0, 98];
 for (let i = 0; i < ages.length; i++) {
-  if (ages[i] > 18) {
-    console.log(ages[i] + " adult");
-  } else if (ages[i] == 18) {
-    console.log(ages[i] + " barely adult!");
-  } else {
-    console.log(ages[i] + " minor");
-  }
+  findMinors(ages[i]);
 }
